@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+    border-style: solid;
+    border-width: 4px 10px 10px ;
+    /* the values go clockwise i.e. top, right, bottom, left */
+    border-color: green blue red;
+}
+h3{
+    border-style: none none none solid ;
+    border-color: red;
+}
+p{
+    /* border: 5px solid green;
+    border-radius: 50px; */
+    width: 0;  
+    height: 0;  
+    border-left: 50px solid transparent; 
+    border-right: 50px solid transparent; 
+    border-bottom: 50px solid; 
+    margin: 2rem; 
+}
